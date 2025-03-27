@@ -4,13 +4,14 @@
 */
 :root {
   /* Цвета */
-  --accent-color: #FF0070;
-  --title-color: #DB00FF;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
   --subtitle-txt-color: #000028;
-  --txt-color:  #F1B2CE;
+  --txt-color: #f1b2ce;
+  --background-color: #000028;
 
   /* Шрифты */
-  --main-font: 'IBM Plex mono';
+  --main-font: "IBM Plex mono";
   --bold-font: bold;
   --normal-font: normal;
   --main-font-size: 18px;

@@ -10,10 +10,11 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   /* Цвета */
-  --accent-color: #FF8DCB;
-  --title-color: #FFC2E6;
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
   --subtitle-txt-color: #353430;
-  --txt-color:  #353430;
+  --txt-color: #353430;
+  --background-color: #fff1f7;
 }
 
 .theme-light .page {
@@ -22,7 +23,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  padding: 10px;
+  background-color: var(--background-color);
 }
 
 .theme-light .header__theme-menu-button {
@@ -54,8 +55,6 @@
   height: 25px;
   background-color: transparent;
   position: absolute;
-  top: 0;
-  right: 0;
   border-right: 1px solid var(--subtitle-txt-color);
   border-top: 1px solid var(--subtitle-txt-color);
 }
@@ -67,28 +66,19 @@
   height: 25px;
   background-color: transparent;
   position: absolute;
-  bottom: 0;
-  left: 0;
   border-left: 1px solid var(--subtitle-txt-color);
   border-bottom: 1px solid var(--subtitle-txt-color);
 }
 
 /* МЕДИА-ЗАПРОСЫ */
 
-@media (min-width: 768px) {
-
-  .theme-light .page {
-    padding: 20px;
-  }
-
-}
-
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
+    --accent-color: #ff8dcb;
+    --title-color: #ffc2e6;
     --subtitle-txt-color: #353430;
-    --txt-color:  #353430;   
+    --txt-color: #353430;
+    --background-color: #fff1f7;
   }
 
   .theme-auto .page {
@@ -98,16 +88,26 @@
   .theme-auto .header__theme-menu-button {
     color: var(--subtitle-txt-color);
   }
-  
+
   .theme-auto .header__theme-menu-button:hover {
     outline: 1px solid var(--subtitle-txt-color);
   }
-  
+
   .theme-auto .questions {
     color: var(--subtitle-txt-color);
   }
 
   .theme-auto .decorative-element {
     display: none;
+  }
+
+  .theme-auto .decorated-zone::before {
+    border-right: 1px solid var(--subtitle-txt-color);
+    border-top: 1px solid var(--subtitle-txt-color);
+  }
+
+  .theme-auto .decorated-zone::after {
+    border-left: 1px solid var(--subtitle-txt-color);
+    border-bottom: 1px solid var(--subtitle-txt-color);
   }
 }
