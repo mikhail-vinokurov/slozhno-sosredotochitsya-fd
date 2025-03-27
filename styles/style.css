@@ -102,9 +102,9 @@
   border-bottom: 1px solid var(--accent-color);
 }
 
-/* .header__theme-menu-button:active {
-  pointer-events: none;
-} */
+.header__theme-menu-button_active {
+  outline: 1px solid var(--accent-color);
+}
 
 .link-in-text {
   text-decoration: none;

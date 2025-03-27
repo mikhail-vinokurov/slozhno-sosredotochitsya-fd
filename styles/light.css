@@ -34,6 +34,10 @@
   outline: 1px solid var(--subtitle-txt-color);
 }
 
+.theme-light .header__theme-menu-button_active {
+  outline: 1px solid var(--subtitle-txt-color);
+}
+
 .theme-light .questions {
   color: var(--subtitle-txt-color);
 }
@@ -90,6 +94,10 @@
   }
 
   .theme-auto .header__theme-menu-button:hover {
+    outline: 1px solid var(--subtitle-txt-color);
+  }
+
+  .theme-auto .header__theme-menu-button_active {
     outline: 1px solid var(--subtitle-txt-color);
   }
 
