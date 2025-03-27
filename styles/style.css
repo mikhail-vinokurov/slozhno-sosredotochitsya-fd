@@ -8,6 +8,7 @@
   background-attachment: fixed;
   padding: 0 10px;
   background-color: var(--background-color);
+  margin: 0 auto;
 }
 
 .header {
@@ -394,7 +395,7 @@
     }
 
     .footer {
-      margin-block-start: 0;
+      margin-block-start: 59px;
     }
 
     .end-title {
@@ -414,10 +415,6 @@
         "c e e";
       gap: 20px;
       margin-block-start: 20px;
-    }
-
-    .footer {
-      margin-block-start: 59px;
     }
   }
 }
