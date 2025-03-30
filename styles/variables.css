@@ -4,11 +4,18 @@
 */
 :root {
   /* Цвета */
-  --accent-color: #ff0070;
+  --menu-color: #ff0070;
+  --effects-color: #ff0070;
+  --effcets-menu-hover-color: 255, 0, 112;
+  --shadow-color: #ff0070;
+  --question-color: #ff0070;
+  --link-color: #ff0070;
+  --highlight-color: #ff0070;
   --title-color: #db00ff;
   --subtitle-txt-color: #000028;
   --txt-color: #f1b2ce;
   --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
 
   /* Шрифты */
   --main-font: "IBM Plex mono";
